@@ -14,7 +14,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
         printf("%u\n", *arrPtr);
         arrPtr++;
-    }
+    }1
 
     // int* aPtr = &arr[0];
     // printf("%u\n", aPtr);
