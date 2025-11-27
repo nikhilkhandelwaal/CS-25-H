@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+struct user {
+    char name[100];
+    int age;
+    float height;
+};
+
+int main() {
+
+    struct user user1 = { "Hello",25,5.5 };
+
+    struct user* user1Ptr = &user1;
+
+    // printf("%d\n", user1.age);
+    // printf("%f\n", user1.height);
+    // printf("%s\n", user1.name);
+
+    // Access values by using Pointer
+    // printf("%d\n", (*user1Ptr).age);
+    // printf("%f\n", (*user1Ptr).height);
+    // printf("%s\n", (*user1Ptr).name);
+
+
+    // Access values by using Pointer arrow
+    // printf("%d\n", user1Ptr->age);
+    // printf("%f\n", user1Ptr->height);
+    // printf("%s\n", user1Ptr->name);
+
+
+    return 0;
+}
